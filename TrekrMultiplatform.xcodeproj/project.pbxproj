@@ -13,6 +13,10 @@
 		3382DD3B25BF599C0048F8EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DD2625BF59970048F8EF /* ContentView.swift */; };
 		3382DD3C25BF599C0048F8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD2725BF599B0048F8EF /* Assets.xcassets */; };
 		3382DD3D25BF599C0048F8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD2725BF599B0048F8EF /* Assets.xcassets */; };
+		3382DD4C25BF5C050048F8EF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4A25BF5C040048F8EF /* locations.json */; };
+		3382DD4D25BF5C050048F8EF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4A25BF5C040048F8EF /* locations.json */; };
+		3382DD4E25BF5C050048F8EF /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4B25BF5C050048F8EF /* tips.json */; };
+		3382DD4F25BF5C050048F8EF /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4B25BF5C050048F8EF /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		3382DD3425BF599C0048F8EF /* TrekrMultiplatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiplatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3382DD3625BF599C0048F8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3382DD3725BF599C0048F8EF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		3382DD4A25BF5C040048F8EF /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		3382DD4B25BF5C050048F8EF /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		3382DD4825BF59F70048F8EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3382DD2625BF59970048F8EF /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,7 +108,8 @@
 		3382DD4925BF59FF0048F8EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3382DD2625BF59970048F8EF /* ContentView.swift */,
+				3382DD4A25BF5C040048F8EF /* locations.json */,
+				3382DD4B25BF5C050048F8EF /* tips.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3382DD4C25BF5C050048F8EF /* locations.json in Resources */,
 				3382DD3C25BF599C0048F8EF /* Assets.xcassets in Resources */,
+				3382DD4E25BF5C050048F8EF /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3382DD4D25BF5C050048F8EF /* locations.json in Resources */,
 				3382DD3D25BF599C0048F8EF /* Assets.xcassets in Resources */,
+				3382DD4F25BF5C050048F8EF /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
