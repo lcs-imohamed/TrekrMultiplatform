@@ -48,7 +48,7 @@ struct LocationDetail: View {
             .padding(.horizontal)
             
             Text(location.more)
-                .padding([.horizontal, .bottom])
+                .padding([.horizontal, .bottom]) 
             
         }
         .navigationTitle(location.name)
