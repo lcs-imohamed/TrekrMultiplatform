@@ -17,6 +17,8 @@
 		3382DD4D25BF5C050048F8EF /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4A25BF5C040048F8EF /* locations.json */; };
 		3382DD4E25BF5C050048F8EF /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4B25BF5C050048F8EF /* tips.json */; };
 		3382DD4F25BF5C050048F8EF /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3382DD4B25BF5C050048F8EF /* tips.json */; };
+		3382DD5525BF5D080048F8EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DD5425BF5D080048F8EF /* Location.swift */; };
+		3382DD5625BF5D080048F8EF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3382DD5425BF5D080048F8EF /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,7 @@
 		3382DD3725BF599C0048F8EF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		3382DD4A25BF5C040048F8EF /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		3382DD4B25BF5C050048F8EF /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		3382DD5425BF5D080048F8EF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 			children = (
 				3382DD4A25BF5C040048F8EF /* locations.json */,
 				3382DD4B25BF5C050048F8EF /* tips.json */,
+				3382DD5425BF5D080048F8EF /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3382DD3A25BF599C0048F8EF /* ContentView.swift in Sources */,
+				3382DD5525BF5D080048F8EF /* Location.swift in Sources */,
 				3382DD3825BF599C0048F8EF /* TrekrMultiplatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3382DD3B25BF599C0048F8EF /* ContentView.swift in Sources */,
+				3382DD5625BF5D080048F8EF /* Location.swift in Sources */,
 				3382DD3925BF599C0048F8EF /* TrekrMultiplatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
