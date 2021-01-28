@@ -16,7 +16,7 @@ struct TipsList: View {
     
     var body: some View {
         
-        List(tips, id: \.text) { tip in
+        List(tips, id: \.text) { tip in 
             
             //If there are children on this particular tip
             if tip.children != nil {
